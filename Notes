@@ -1,0 +1,16 @@
+/* 
+Page Object Model (POM) follows the Encapsulation concept.
+Encapsulation means wrapping data (locators/properties)
+and methods (actions) into a single class.
+
+Variables/properties are marked as:
+- private   → cannot be accessed outside the class
+- readonly  → values will not change after initialization
+
+When an object of the class is created, the constructor gets invoked automatically.
+
+The Playwright page fixture is passed to the constructor, which initializes the page object 
+and helps locate elements.
+
+Action methods are created for all locators to perform reusable operations on the page.
+*/
